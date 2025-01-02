@@ -67,3 +67,19 @@ footer {
   text-align: center;
   margin-top: 20px;
 }
+
+.App-nav {
+  margin-top: 20px;
+}
+
+.App-nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #61dafb;
+  font-weight: bold;
+}
+
+.App-nav a:hover {
+  color:#0077b6;
+}
+
