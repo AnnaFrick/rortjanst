@@ -1,0 +1,56 @@
+/* Import a modern font */
+@import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap");
+
+.Hero {
+  position: relative;
+  width: 100%;
+  height: 60vh; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+.Hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1; /* Video stays behind everything */
+}
+
+.Hero-light-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.4); /* Light overlay with transparency */
+  z-index: 2; /* Overlay sits above the video */
+}
+
+.Hero-content {
+  font-family: "Stick No Bills", sans-serif; /* Use the imported font */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 3; /* Content stays on top of the overlay */
+}
+
+.Hero-content h1 {
+  /* Make the size flexible */
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 600;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add shadow for readability */
+}
+
+.Hero-content p {
+  font-size: 1.5rem; /* Supporting text size */
+  font-weight: 400;
+  margin-top: 1rem;
+  line-height: 1.6;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Add shadow for readability */
+}

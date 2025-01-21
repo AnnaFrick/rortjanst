@@ -4,7 +4,6 @@ import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="footer">
-      <p>© 2024 Peter Engström Rörtjänst AB</p>
       <p>
         <FaPhoneAlt className="icon" />
         <a href="tel:0706983838" className="footer-link">
@@ -17,6 +16,7 @@ const Footer = () => {
           peterengstrom@telia.com
         </a>
       </p>
+      <p>© 2024 Peter Engström Rörtjänst AB</p>
     </div>
   );
 };
