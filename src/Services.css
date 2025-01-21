@@ -1,0 +1,40 @@
+.Services {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .Services h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  .Services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .Service-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .Service-icon {
+    font-size: 2.5rem;
+    color: #0066cc;
+    margin-bottom: 1rem;
+  }
+  
+  .Service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .Service-item p {
+    color: #555;
+  }
+  

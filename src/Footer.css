@@ -1,29 +1,7 @@
-.footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #1a1a1a;
-    color: white;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  .footer p {
-    margin: 10px 0;
-    font-size: 0.9rem;
-  }
-  
-  .footer-link {
-    color: #61dafb;
-    text-decoration: none;
-    margin-left: 10px;
-  }
-  
-  .footer-link:hover {
-    text-decoration: underline;
-  }
-  
-  .icon {
-    margin-right: 10px;
-    color: #61dafb;
-    vertical-align: middle;
-  }
-  
+.Footer {
+  padding: 1rem;
+  text-align: center;
+  background-color: #1a1a1a;
+  color: white;
+  font-size: 0.875rem;
+}

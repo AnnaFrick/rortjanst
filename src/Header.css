@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap");
+
+.Header {
+    font-family: "Stick No Bills", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1a1a1a;
+    color: white;
+  }
+  
+  .Header-logo img {
+    height: 50px;
+  }
+  
+  .Header-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  .Header-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .Header-nav a:hover {
+    text-decoration: underline;
+  }
+  

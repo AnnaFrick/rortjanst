@@ -1,19 +1,22 @@
-import "./Hero.css"
+import React from 'react';
+import './Hero.css';
 
 const Hero = () => {
   return (
-    <div className="Hero">
+    <section className="Hero" id="home">
       <video className="Hero-video" autoPlay loop muted>
-        <source src="/crane-video.mp4" type="video/mp4" />
-        Din webbläsare stöder inte video.
+        <source src="/car-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
       </video>
-      {/* Light overlay to brighten the video */}
-      <div className="Hero-light-overlay"></div>
-      <div className="Hero-content">
+      <div className="Hero-overlay">
         <h1>Peter Engström Rörtjänst AB</h1>
+        <p>
+          Utför VS-jobb hos dig! Kvalitet och trygghet enligt <strong>Säker Vatten-certifiering</strong>.
+        </p>
+        <button className="Hero-button">Läs mer om våra tjänster</button>
       </div>
-    </div>
+    </section>
   );
-}
+};
 
 export default Hero;
